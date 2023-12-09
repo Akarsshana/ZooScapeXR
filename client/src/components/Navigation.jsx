@@ -25,6 +25,9 @@ function Navigation() {
                         <li>
                             <Link to={'/theme'}>Grassland</Link>
                         </li>
+                        <li>
+                            <Link to={'/theme'}>Museum</Link>
+                        </li>
                     </ul>
                 </nav>
             </section>
