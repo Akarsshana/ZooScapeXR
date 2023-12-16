@@ -12,7 +12,7 @@ function Dashboard() {
                     </div>
                     <div className="buttons">
                         <button className="btn">
-                            <Link to={'/explore'}>Class Room</Link>
+                            <a href="https://maize-peppermint-bead.glitch.me/" target="_blank">Class Room</a>
                         </button>
                         <button className="btn">
                             <Link to={'/explore'}>Explore</Link>

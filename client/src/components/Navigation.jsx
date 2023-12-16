@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
-import Loader from './Loader'
 
 function Navigation() {
     return (
@@ -23,14 +22,10 @@ function Navigation() {
                         <li>
                             <a href="https://twisty-jet-veterinarian.glitch.me" target='_blank'>Aquatic</a>
                         </li>
-                        <li>
-                            <Link to={'/theme'}>Grassland</Link>
-                        </li>
                     </ul>
                 </nav>
                 <Link to={'/videos'} className='request'>Go To Videos</Link>
             </section>
-            <Loader />
         </Fragment>
     )
 }

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
-import Loader from './Loader'
 
 function VideoNavigation() {
     return (
@@ -23,14 +22,10 @@ function VideoNavigation() {
                         <li>
                             <Link to={'/video/aquatic-video'}>Aquatic</Link>
                         </li>
-                        <li>
-                            <Link to={'/video/grassland-video'}>Grassland</Link>
-                        </li>
                     </ul>
                 </nav>
                 <Link to={'/explore'} className='request'>Visit Environments</Link>
             </section>
-            <Loader />
         </Fragment>
     )
 }
