@@ -282,10 +282,6 @@ header .btn a {
     background-image: url('./assets/aquatic.jpg');
 }
 
-.navbar_page nav ul li:nth-child(5) {
-    background-image: url('./assets/grassland.jpg');
-}
-
 .navbar_page nav ul li a {
     width: 100%;
     height: 100%;
