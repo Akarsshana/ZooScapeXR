@@ -8,16 +8,17 @@ function Navigation() {
         <Fragment>
             <Header />
             <section className="page navbar_page">
+                <h1 className="title">Environments</h1>
                 <nav>
                     <ul>
                         <li>
-                            <Link to={'/theme'}>Forest</Link>
+                            <a href="https://palm-dorian-swoop.glitch.me" target='_blank'>Forest</a>
                         </li>
                         <li>
-                            <Link to={'/theme'}>Desert</Link>
+                            <a href="https://tender-shy-singularity.glitch.me/" target='_blank'>Desert</a>
                         </li>
                         <li>
-                            <Link to={'/theme'}>Polar</Link>
+                            <a href="https://five-superficial-trunk.glitch.me" target='_blank'>Polar</a>
                         </li>
                         <li>
                             <Link to={'/theme'}>Aquatic</Link>
@@ -30,6 +31,7 @@ function Navigation() {
                         </li>
                     </ul>
                 </nav>
+                <Link to={'/videos'} className='request'>Go To Videos</Link>
             </section>
             <Loader />
         </Fragment>

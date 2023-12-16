@@ -8,7 +8,7 @@ function Dashboard() {
                 <div className="main">
                     <div className="content">
                         <h1 className="dashboard_title">ZooScapeXR</h1>
-                        <p className="welnote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur labore consequuntur iusto, fugiat voluptatibus autem tempora corrupti nam error? Repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur labore consequuntur iusto, fugiat voluptatibus autem tempora corrupti nam error? Repellat.</p>
+                        <p className="welnote">Zooscape XR is a virtual platform for schools and museums to display species of flora and fauna and their ecosystems, virtually and augumentally. With Zooscape XR, we’ll able to view different parts of nature and ecosystem visually using mobile phone or through XR extension module which gives a derivative parallel realism between reality</p>
                     </div>
                     <div className="buttons">
                         <button className="btn">
