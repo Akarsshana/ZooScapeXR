@@ -21,7 +21,7 @@ function Navigation() {
                             <a href="https://five-superficial-trunk.glitch.me" target='_blank'>Polar</a>
                         </li>
                         <li>
-                            <Link to={'/theme'}>Aquatic</Link>
+                            <a href="https://twisty-jet-veterinarian.glitch.me" target='_blank'>Aquatic</a>
                         </li>
                         <li>
                             <Link to={'/theme'}>Grassland</Link>
