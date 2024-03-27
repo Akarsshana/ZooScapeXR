@@ -8,7 +8,7 @@ function Navigation() {
         <Fragment>
             <Header />
             <section className="page navbar_page">
-                <h1 className="title">Environments</h1>
+                {/* <h1 className="title">Environments</h1> */}
                 <nav>
                     <ul>
                         <li>
@@ -20,14 +20,14 @@ function Navigation() {
                         <li>
                             <a href="https://five-superficial-trunk.glitch.me" target='_blank'>Polar</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="https://twisty-jet-veterinarian.glitch.me" target='_blank'>Aquatic</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
-                <Link to={'/videos'} className='request'>Go To Videos</Link>
+                {/* <Link to={'/videos'} className='request'>Go To Videos</Link> */}
             </section>
-            <Loader />
+            {/* <Loader /> */}
         </Fragment>
     )
 }

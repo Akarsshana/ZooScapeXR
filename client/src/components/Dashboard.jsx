@@ -12,9 +12,6 @@ function Dashboard() {
                     </div>
                     <div className="buttons">
                         <button className="btn">
-                            <Link to={'/explore'}>Class Room</Link>
-                        </button>
-                        <button className="btn">
                             <Link to={'/explore'}>Explore</Link>
                         </button>
                     </div>
