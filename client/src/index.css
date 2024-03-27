@@ -264,22 +264,31 @@ header .btn a {
     background-size: cover;
     border-radius: 8px;
     overflow: hidden;
+    background-position: center;
 }
 
-.navbar_page nav ul li:nth-child(1) {
+.navbar_page nav ul .ar {
+    background-image: url('./assets/ar.jpeg');
+}
+
+.navbar_page nav ul .environment {
+    background-image: url('./assets/environment.jpg');
+}
+
+.navbar_page nav ul .ar_rhino {
+    background-image: url('./assets/rhino.jpg');
+}
+
+.navbar_page nav ul .forest {
     background-image: url('./assets/forest.jpg');
 }
 
-.navbar_page nav ul li:nth-child(2) {
+.navbar_page nav ul .desert {
     background-image: url('./assets/desert.jpg');
 }
 
-.navbar_page nav ul li:nth-child(3) {
+.navbar_page nav ul .polar {
     background-image: url('./assets/polar.jpg');
-}
-
-.navbar_page nav ul li:nth-child(4) {
-    background-image: url('./assets/aquatic.jpg');
 }
 
 .navbar_page nav ul li a {

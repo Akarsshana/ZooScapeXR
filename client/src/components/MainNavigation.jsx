@@ -1,9 +1,8 @@
-// Navigation for Environments
-
 import React, { Fragment } from 'react'
 import Header from './Header'
+import { Link } from 'react-router-dom'
 
-function Navigation() {
+function MainNavigation() {
     return (
         <Fragment>
             <Header />
@@ -11,15 +10,15 @@ function Navigation() {
                 {/* <h1 className="title">Environments</h1> */}
                 <nav>
                     <ul>
-                        <li className='forest'>
-                            <a href="https://palm-dorian-swoop.glitch.me" target='_blank'>Forest</a>
+                        <li className='ar'>
+                            <Link to={'/explore/ar'}>AR</Link>
                         </li>
-                        <li className='desert'>
-                            <a href="https://tender-shy-singularity.glitch.me/" target='_blank'>Desert</a>
+                        <li className='environment'>
+                            <Link to={'/explore/environment'}>Environment (VR)</Link>
                         </li>
-                        <li  className='polar'>
-                            <a href="https://five-superficial-trunk.glitch.me" target='_blank'>Polar</a>
-                        </li>
+                        {/* <li className='classroom'>
+                            <a href="https://glitch.com/~vivacious-maddening-aquarius">Classroom</a>
+                        </li> */}
                         {/* <li>
                             <a href="https://twisty-jet-veterinarian.glitch.me" target='_blank'>Aquatic</a>
                         </li> */}
@@ -32,4 +31,4 @@ function Navigation() {
     )
 }
 
-export default Navigation
+export default MainNavigation

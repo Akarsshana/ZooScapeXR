@@ -7,6 +7,8 @@ import PageNotFound from '../components/PageNotFound';
 import Footer from '../components/Footer';
 import Videos from '../components/Videos';
 import VideoNavigation from '../components/VideoNavigation';
+import MainNavigation from '../components/MainNavigation';
+import ArNavigation from '../components/ArNavigation';
 
 function Router() {
   return (
@@ -14,7 +16,10 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path='/' index element={<Dashboard />}/>
-                <Route path='/explore' element={<Navigation />}/>
+                <Route path='/explore' element={<MainNavigation />}/>
+                <Route path='/explore/ar' element={<ArNavigation />}/>
+                <Route path='/explore/environment' element={<Navigation />}/>
+                <Route path='/explore' element={<MainNavigation />}/>
                 <Route path='/theme' element={<Theme />}/>
                 <Route path='/video/forest-video' element={<Videos />}/>
                 <Route path='/video/desert-video' element={<Videos />}/>
