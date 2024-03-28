@@ -321,9 +321,9 @@ header .btn a {
     background-image: url('./assets/forest.jpg');
 }
 
-.navbar_page nav ul .desert {
+/* .navbar_page nav ul .desert {
     background-image: url('./assets/desert.jpg');
-}
+} */
 
 .navbar_page nav ul .polar {
     background-image: url('./assets/polar.jpg');

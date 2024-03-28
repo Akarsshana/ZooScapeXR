@@ -18,13 +18,13 @@ function Navigation() {
                 <nav>
                     <ul>
                         <li className='forest'>
-                            <a href="https://palm-dorian-swoop.glitch.me" target='_blank'>Forest</a>
+                            <a href="https://water-kindhearted-cruiser.glitch.me/" target='_blank'>Forest</a>
                         </li>
-                        <li className='desert'>
+                        {/* <li className='desert'>
                             <a href="https://tender-shy-singularity.glitch.me/" target='_blank'>Desert</a>
-                        </li>
+                        </li> */}
                         <li className='polar'>
-                            <a href="https://five-superficial-trunk.glitch.me" target='_blank'>Polar</a>
+                            <a href="https://magenta-educated-shark.glitch.me/" target='_blank'>Polar</a>
                         </li>
                         {/* <li>
                             <a href="https://twisty-jet-veterinarian.glitch.me" target='_blank'>Aquatic</a>
