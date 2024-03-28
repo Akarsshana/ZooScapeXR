@@ -7,7 +7,7 @@ function Header() {
         <header>
             <h1 className="logo">ZooScapeXR</h1>
             <button className='btn'>
-                <Link to={'/'}>Back</Link>
+                <Link to={'/'}>Home</Link>
             </button>
         </header>
     </Fragment>

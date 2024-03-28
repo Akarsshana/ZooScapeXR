@@ -8,6 +8,11 @@ function MainNavigation() {
             <Header />
             <section className="page navbar_page">
                 {/* <h1 className="title">Environments</h1> */}
+                <div className="history">
+                    <p className="list">
+                        <Link to="/">Home</Link> / <Link to="/explore">Explore</Link>
+                    </p>
+                </div>
                 <nav>
                     <ul>
                         <li className='ar'>

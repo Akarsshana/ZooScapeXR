@@ -2,6 +2,7 @@
 
 import React, { Fragment } from 'react'
 import Header from './Header'
+import { Link } from 'react-router-dom'
 
 function Navigation() {
     return (
@@ -9,6 +10,11 @@ function Navigation() {
             <Header />
             <section className="page navbar_page">
                 {/* <h1 className="title">Environments</h1> */}
+                <div className="history">
+                    <p className="list">
+                        <Link to="/">Home</Link> / <Link to="/explore">Explore</Link> / <Link to="/explore/environment">Environment</Link>
+                    </p>
+                </div>
                 <nav>
                     <ul>
                         <li className='forest'>
@@ -17,7 +23,7 @@ function Navigation() {
                         <li className='desert'>
                             <a href="https://tender-shy-singularity.glitch.me/" target='_blank'>Desert</a>
                         </li>
-                        <li  className='polar'>
+                        <li className='polar'>
                             <a href="https://five-superficial-trunk.glitch.me" target='_blank'>Polar</a>
                         </li>
                         {/* <li>

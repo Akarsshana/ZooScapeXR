@@ -4,9 +4,13 @@
     --color1: #004b23;
     --color2: #006400;
     --color3: #38b000;
-    --color4: #fcfcfc;
+    /* --color4: #fcfcfc;
     --color5: #000000;
-    --color6: #0D1321;
+    --color6: #0D1321; */
+    --color4: #1A1A1A;
+    --color5: #242424;
+    --color6: #E3E3E3;
+    --color7: #C6C6C6;
 }
 
 * {
@@ -22,6 +26,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--color5);
 }
 
 .page {
@@ -78,19 +83,15 @@ header .btn {
     border: none;
     outline: none;
     background-color: var(--color3);
-    color: var(--color4);
+    color: var(--color6);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 200;
     border-radius: 4px;
 }
 
-header .btn a::before {
-    content: '< ';
-}
-
 header .btn a {
-    color: var(--color4);
+    color: var(--color6);
     width: 100%;
     height: 100%;
     padding: 6px 20px;
@@ -137,7 +138,8 @@ header .btn a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
+    /* background-color: #ffffff66; */
+    background-color: #2424249a;
 }
 
 .dashboard_page .main .content {
@@ -149,7 +151,7 @@ header .btn a {
 }
 
 .dashboard_page .main .content .dashboard_title {
-    color: var(--color4);
+    color: var(--color6);
     background-color: var(--color3);
     padding: 4px 20px;
     letter-spacing: 2px;
@@ -161,7 +163,7 @@ header .btn a {
 }
 
 .dashboard_page .main .content .welnote {
-    color: var(--color4);
+    color: var(--color6);
     font-weight: 200;
     width: 50%;
     text-align: justify;
@@ -182,7 +184,7 @@ header .btn a {
     border: none;
     outline: none;
     background-color: var(--color3);
-    color: var(--color4);
+    color: var(--color6);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 200;
@@ -190,7 +192,7 @@ header .btn a {
 }
 
 .dashboard_page .main .buttons .btn a {
-    color: var(--color4);
+    color: var(--color6);
     width: 100%;
     height: 100%;
     padding: 8px 20px;
@@ -221,6 +223,25 @@ header .btn a {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+}
+
+.navbar_page .history .list {
+    color: var(--color3);
+    padding: 0px 20px;
+}
+
+.navbar_page .history .list a {
+    color: var(--color3);
+    /* border-bottom: 2px solid var(--color3); */
+    background-color: var(--color4);
+    padding: 4px 16px;
+    border-radius: 8px;
+    margin: 0px 5px;
+    border: 1px solid var(--color3);
+}
+
+.navbar_page .history .list a:hover {
+    background-color: var(--color5);
 }
 
 .navbar_page .title {
@@ -265,6 +286,7 @@ header .btn a {
     border-radius: 8px;
     overflow: hidden;
     background-position: center;
+    border: 4px solid var(--color3);
 }
 
 .navbar_page nav ul .ar {
@@ -277,6 +299,22 @@ header .btn a {
 
 .navbar_page nav ul .ar_rhino {
     background-image: url('./assets/rhino.jpg');
+}
+
+.navbar_page nav ul .ar_bison {
+    background-image: url('./assets/bison.jpg');
+}
+
+.navbar_page nav ul .ar_elephant {
+    background-image: url('./assets/elephant.jpg');
+}
+
+.navbar_page nav ul .ar_lion {
+    background-image: url('./assets/lion.jpg');
+}
+
+.navbar_page nav ul .ar_deer {
+    background-image: url('./assets/deer.jpg');
 }
 
 .navbar_page nav ul .forest {
@@ -298,7 +336,7 @@ header .btn a {
     justify-content: center;
     align-items: flex-end;
     background-color: rgba(0, 0, 0, 0.5);
-    color: var(--color4);
+    color: var(--color6);
     padding: 8px;
     transition: all 0.5s ease-in-out;
 }
@@ -339,13 +377,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color6);
+    background-color: var(--color4);
 }
 
 footer .footer_content {
     font-size: 1.1rem;
-    color: var(--color4);
+    color: var(--color6);
     font-weight: 400;
+}
+
+footer .footer_content span {
+    color: var(--color3);
 }
 
 @media screen and (max-width: 800px) {
